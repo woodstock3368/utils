@@ -1,0 +1,14 @@
+This wiki page: Ubuntu+Setup+Firebird+Database has a good description for ubuntu.
+
+Make sure you don't start it as a service, i.e. everytime linux starts up.
+
+Then I installed flamerobin, which is a pretty nice firebird client.
+
+I keep having issues with rights.  So this is what I found works, but its really stupid.
+I copy the DB that I want to play with to /var/lib/firebird/{version}/data
+sudo chown firebird:firebird <fdb>
+sudo chmod 666 <fdb>
+
+Then I load the DB into flamerobin.
+
+TODO:  Need to figure out how the rights issue can be worked out.  To many steps is stupid.
