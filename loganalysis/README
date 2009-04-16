@@ -1,0 +1,4 @@
+The log analysis is an internal tool that I've tweaked.  
+These are the scripts, for my box, that I use to run the tool.
+
+TODO:  Make the scripts more generic so that the paths locations etc. are not hardcoded.
